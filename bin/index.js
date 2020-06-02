@@ -18,6 +18,8 @@ app.post('/api/login', (req, res) => {
 
   if (!password) {
     errors.push('Необходимо указать пароль');
+  } else if (password !== 'qwerty') {
+    errors.push('Неправильный пароль');
   }
 
   if (errors.length) {

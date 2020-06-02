@@ -27,9 +27,11 @@
 
 ```json
 {
-  "id": 5,
-  "name": "User name",
-  "age": 25
+  "data": {
+    "id": 5,
+    "name": "User name",
+    "age": 25
+  }
 }
 ```
 
