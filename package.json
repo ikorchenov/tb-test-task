@@ -1,0 +1,16 @@
+{
+  "name": "tb-test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ikorchenov/tb-test-task.git",
+  "author": "Ilya <ilyakorchenov@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node ./bin"
+  },
+  "dependencies": {
+    "casual": "1.6.2",
+    "cors": "2.8.5",
+    "express": "4.17.1"
+  }
+}
